@@ -2,7 +2,7 @@
 
 A compiler for C--, a simplified C-like language, implemented in C. The project includes lexical analysis, recursive-descent parsing, semantic checking, abstract syntax tree (AST) construction, three-address intermediate representation, and MIPS assembly code generation.
 
-Developed as part of CSC 453 coursework at the University of Arizona.
+Developed as part of CSC coursework.
 
 ## Features
 
@@ -118,7 +118,3 @@ C--Compiler/
 | `driver.c` | Compiler entry point and command-line option handling |
 | `scanner-driver.c` | Separate scanner testing driver |
 | `Makefile` | Compilation and cleanup targets |
-
-## Acknowledgments
-
-Developed for CSC 453 at the University of Arizona. The project incorporates course-provided starter code, interfaces, and utilities credited to instructor Saumya Debray, including driver code, scanner token definitions, and AST-printing utilities. Original source-file author credits have been retained.
